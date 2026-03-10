@@ -1,0 +1,78 @@
+# ===========================
+# Node.js / React Frontend
+# ===========================
+node_modules/
+frontend/node_modules/
+frontend/dist/
+frontend/.env.local
+frontend/.env.production
+frontend/coverage/
+.npm
+
+# ===========================
+# Laravel Backend
+# ===========================
+backend/vendor/
+backend/.env
+backend/.env.backup
+backend/storage/logs/*.log
+backend/storage/framework/cache/data/*
+backend/storage/framework/sessions/*
+backend/storage/framework/views/*
+backend/bootstrap/cache/*.php
+backend/public/hot
+backend/public/storage
+backend/_ide_helper.php
+backend/coverage/
+
+# ===========================
+# Environment files
+# ===========================
+.env
+.env.*
+!.env.example
+!frontend/.env.example
+
+# ===========================
+# Build artifacts
+# ===========================
+dist/
+build/
+*.pid
+*.seed
+*.pid.lock
+
+# ===========================
+# Logs & Runtime
+# ===========================
+*.log
+logs/
+.pm2/
+pids/
+
+# ===========================
+# OS files
+# ===========================
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+*~
+
+# ===========================
+# IDE
+# ===========================
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+
+# ===========================
+# Backups
+# ===========================
+*.backup
+*.bak
+*.tar.gz
+*.zip
